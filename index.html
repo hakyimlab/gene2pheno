@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Catalog of gene to phenome associations</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Jiamao Zheng, Hae Kyung Im">
+        <meta name="description" content="GWAS MetaXcan PredixCan gene2pheno">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/gene2pheno.css">
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.2.0/bootbox.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js"></script>
+    </head>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1><center><b> Catalog Of Gene To Phenome Associations </b></center></h1>
+        </div>
+    </div> 
+
+    <body>
+        <div>
+            <div class="container">
+                <div class="notice" id="notice_alert" style="background-color: #E2EFDA; padding: 10px;">
+                    <div class="row" style="text-align: center;">
+                        <div class="col-md-12">
+                            <h2> 
+                             <strong>Notice</strong>: <a
+                                href="http://ukb-neale.gene2pheno.org">
+                              Links </a> to download and query PrediXcan assoc across 44 <a
+                                href="http://predictdb.org">
+                                GTEx tissue models </a> based on 2400+ <a
+                                href="https://twitter.com/uk_biobank">
+                              @ukbiobank </a> rapid GWAS from <a
+                                href="http://www.nealelab.is">
+                              Neale Lab </a> available
+                            </h2>
+                        </div>
+                    </div>
+                </div> <br>
+
+                <div class="meta-beta">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <h1> <a class="btn btn btn-primary" href="http://MetaBeta.gene2pheno.org"> <span class="lead"><strong> MetaBeta.gene2pheno.org </strong></span></a> </h1>
+                        <h3> PrediXcan results using public meta analysis GWAS can be queried with <a href="http://MetaBeta.gene2pheno.org"> this link </a>
+                        </h3>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr>
+
+                <div class="ukb-beta">
+                    <div class="row">
+                      <div class="col-md-12">
+                      <h1> <a class="btn btn btn-info" href="http://UKBBeta.gene2pheno.org"> <span class="lead"><strong> UKBBeta.gene2pheno.org </strong></span></a> </h1>
+                      <h3> For UKBBeta: PrediXcan results using Neale Lab’s UKB GWAS results can be queried with
+                      <a  href="http://UKBBeta.gene2pheno.org"> this link </a>
+                <div class="notice" id="notice_alert2" style="background-color: #E2EFDA;">
+                    <div class="row" style="text-align: center;">
+                        <div class="col-md-12">
+                            <h3> 
+                             Stay tuned! We are currently building a better responsive version of this webapp. 
+                            </h3>
+                        </div>
+                    </div>
+                </div> <br>
+                      </h3>
+                      </div>
+                    </div>
+                </div>
+                <br> 
+                <hr />
+
+                <div class="ukb-neale">
+                    <div class="row">
+                        <div class="col-md-12"> 
+                        <h1> <a class="btn btn btn-success" href="http://ukb-neale.gene2pheno.org"> <span class="lead"><strong> UKB-Neale.gene2pheno.org </strong></span></a> </h1>
+                        <h3> Download all PrediXcan results using Neale Lab’s UKB GWAS results with <a  href="http://ukb-neale.gene2pheno.org"> this link </a>
+                        
+                        </h3>
+                        </div>
+                    </div>
+                </div>
+
+   <!--              <div class="path-beta" style="text-align: center;">
+                    <div class="row">
+                       <div class="col-md-12">
+                       <a
+                            href="temp.html">
+                          <h2> PathBeta.gene2pheno.org </h2></a>
+                       </div>
+                    </div>
+                </div> -->
+
+                 <br>
+                <h5>
+                  <font color="black">
+                  <hr />
+                  <b>Disclaimer</b>: Data are provided "as is", with the hope that they may be of use, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with data or the use or other dealings in data.  
+                  </font>
+                </h5></font>
+            </div>
+        </div>
+
+        <br> <br>
+        <div class="footer" role="contentinfo" id="footer">
+        <div class="container">
+            <br>
+            <p class="copyright text-muted" style="color: #FFFFFF"> <center> <a href="http://hakyimlab.org" class="imlab_link">Im Lab</a>, Genetic Medicine, Department of Medicine,  The University of Chicago. <a href="#" class="back_to_top_link" >Back to top</a> </center> </p>
+            <br>
+        </div>
+      </div>
+
+    </body>
+</html>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61894206-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61894206-5');
+</script>
+
+<script type="text/javascript">
+  $('#notice_alert').delay('20000').fadeOut(2000);
+</script>
+
+<script type="text/javascript">
+  $('#notice_alert2').delay('40000').fadeOut(2000);
+</script>
+

@@ -1,0 +1,1 @@
+aws s3 sync ~/Dropbox/Im_lab/2017/haky/gene2pheno/ s3://gene2pheno.org/
